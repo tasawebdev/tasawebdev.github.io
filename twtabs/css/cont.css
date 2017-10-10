@@ -1,0 +1,53 @@
+section{
+    		width: 100w;
+    		height: 100vh;
+    		padding: 50px;
+    		background: silver;
+    	}
+
+.cl_white{
+	color: white;
+}
+
+#subcont {
+	height: 5px;
+}
+
+#botNav{
+	background-color: rgba(0,9,0,0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+#botNav li a{
+	background: transparent;
+	color:#cccccc;
+	display: block;
+	font-weight: normal;
+	line-height: 5px;
+	margin: 0px;
+    text-decoration-color: #cccccc;
+	padding: 10px;
+	margin: 2px;
+	text-align: right;
+	text-decoration: none;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+
+#botNav li a:hover, #botNav ul li:hover a{
+	background: #2580A2;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#botNav li ul{
+	background: transparent;
+	display: none;
+}
+
+#sibmitcont {
+	background-color: silver;
+}

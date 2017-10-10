@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:700,400,100);
+
+.btn-border {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff !important;
+}
+.btn-border:hover {
+  background: rgba(255, 255, 255, 0.08);
+    	
+}
+
+.btn-border2 {
+  background: transparent;
+  border: 1px solid #ee3733;
+  color: #ee3733 !important;
+}
+.btn-border2:hover {
+  background: rgba(238,55,51, 0.08);
+    	
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #DF3F3B;
+}

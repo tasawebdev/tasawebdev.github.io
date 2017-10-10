@@ -1,0 +1,353 @@
+/* side bar wrapper properties */
+#headerNav{
+	padding-top: 5px;
+	/*margin: 50px;*/
+	margin-right: 0px;
+	opacity: 1;
+
+}
+
+#searchBtn{
+	padding-right: 5px;
+}
+
+body{
+	background-color: white;
+	display: block;
+}
+
+#footBar{
+	clear: both;
+	border-bottom: 2px solid black
+	border-top:2px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+#footBar h3{
+	background-color: #cccccc;
+}
+
+#newsHeader, #vision, #moto, #values{
+	margin-top: 10px;
+	text-align: center;
+	font: 67.5% "Lucida Sans Uniconde", "Bitstream Vera Sans", "Trebuchet Uniconde MS", "Lucida Grande", Verdana, Helvetica,sans-serif;
+	font-size: 14px;
+	color: #2580A2;
+}
+
+#christ{
+	font: 67.5% "Lucida Sans Uniconde", "Bitstream Vera Sans", "Trebuchet Uniconde MS", "Lucida Grande", Verdana, Helvetica,sans-serif;
+	font-size: 14px;
+	color: #2580A2;
+
+}
+
+#footcont{
+	background: #cccccc;
+}
+
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: #2580A2;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
+
+@media (max-width: 992px) {
+  .opaque-navbar {
+    background-color: #2580A2;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+}
+/*#sidebar-wrapper{
+	z-index: 1;
+	position: absolute;
+	width: 0;
+	height: 100%;
+	overflow-y: hidden;
+	background: #03A9F4;
+	border: 2px solid blue;
+	opacity: 0.8;
+}*/
+#logoBar{
+	display: inline;
+	vertical-align: middle;
+	padding-top: 15px;
+    padding-bottom: 10px;
+    margin: 2px;
+	color: #03A9F4;
+}
+
+.row{
+		font: 67.5% "Lucida Sans Uniconde", "Bitstream Vera Sans", "Trebuchet Uniconde MS", "Lucida Grande", Verdana, Helvetica,sans-serif;
+}
+.picnews{
+height: 10px
+}
+
+
+
+.thumbnail{
+	background-color: #cccccc;
+}
+
+h3{
+	color: #2580A2;
+}
+#mainNavBar{
+	font: 67.5% "Lucida Sans Uniconde", "Bitstream Vera Sans", "Trebuchet Uniconde MS", "Lucida Grande", Verdana, Helvetica,sans-serif;
+	font-size:10px;
+	padding-top: 5px;
+
+	margin: : 10px;
+	color: #cccccc;
+	
+}
+
+#mainNavBar ul{
+	background: transparent;
+/*	height: 30px;*/
+	list-style: none;
+	margin-right: 0px;
+	
+}
+
+#myCarousel li{
+	padding-top: :30px;
+	margin: : 0px;
+	color: #2580A2;
+	height: 5px
+	background:transparent;
+
+}
+
+#mainNavBar li a{
+	background: transparent;
+	color:#cccccc;
+	display: block;
+	font-weight: normal;
+	line-height: 5px;
+	margin: 0px;
+    text-decoration-color: #cccccc;
+	padding: 10px;
+	margin: 2px;
+	text-align: right;
+	text-decoration: none;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+
+#mainNavBar li a:hover, #mainNavBar ul li:hover a{
+	background: #2580A2;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#mainNavBar li ul{
+	background: transparent;
+	display: none;
+
+
+}
+
+.icon-circle .fa{
+    font-size           : 25px;
+    color               : #e84700;
+    margin              : 0 auto;
+    height              : 80px;
+    width               : 80px;
+    border-radius       : 50%;
+    border              :2px solid #e84700;
+    line-height         : 80px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+
+.icon-circle  i:before{
+    margin-left         : 0px;
+    font-size           : 40px;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+ .icon-circle .fa{
+    font-size           : 15px;
+    color               : #e84700;
+    margin              : 0 auto;
+    height              : 40px;
+    width               : 40px;
+    border-radius       : 50%;
+    border              :2px solid #e84700;
+    line-height         : 40px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+}
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -webkit-transform       : scale(1.2,1.2);
+
+}
+
+.icon-circle  i:before{
+    margin-left         : 0px;
+    font-size           : 20px;
+}   
+}
+
+.ifacebook .fa{
+    color               :#3B5998;
+    border              :2px solid #3B5998;
+}
+
+.ifacebook .fa:hover{
+    
+    background-color        : #3B5998;    
+    color                   : #fff;
+    border                  : 1px solid #3B5998;
+
+}
+
+.itwittter .fa{
+    color               : #33ccff;
+    border              :2px solid #33ccff;
+}
+
+.itwittter .fa:hover{
+    
+    background-color        : #33ccff;    
+    color                   : #fff;
+    border                  : 1px solid #33ccff;
+
+}
+
+.igoogle .fa{
+    color               : #BD3518;
+    border              :2px solid #BD3518;
+}
+
+.igoogle .fa:hover{
+    
+    background-color        : #BD3518;    
+    color                   : #fff;
+    border                  : 1px solid #BD3518;
+
+}
+
+.iLinkedin .fa{
+    color               : #007bb7;
+    border              :2px solid #007bb7;
+}
+
+.iLinkedin .fa:hover{
+    
+    background-color        :#007bb7;    
+    color                   : #fff;
+    border                  : 1px solid #007bb7;
+
+}
+
+.social .fa-facebook:hover {
+    color: #4060A5;
+}
+
+.social .fa-twitter:hover {
+    color: #00ABE3;
+}
+
+.social .fa-google-plus:hover {
+    color: #e64522;
+}
+
+.social .fa-linkedin:hover {
+    color: #0094BC;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus {
+    color: #777;
+}
+
+/* main contant 
+#page-content-wrapper{
+	width: 100%;
+	position: absolute;
+	padding: 0px;
+	border: 0px black;
+	margin: auto;
+}
+
+#wrapper.proDisplayed #sidebar-wrapper{
+	width: 250px;
+}
+
+#wrapper.proDisplayed #page-content-wrapper{
+	padding-left: 0px;
+}
+
+.sidebar-nav{
+	padding: 0;
+	list-style: none;
+
+}
+
+.sidebar-nav li{
+	text-indent: 20px;
+	line-height: 40px;
+
+}
+
+.sidebar-nav li a{
+	display: block;
+	text-decoration: none;
+	color: #ddd;
+}
+
+
+#wrapper #navbar-nav{
+	padding-top: 0px;
+}*/
+
